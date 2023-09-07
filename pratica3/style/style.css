@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+  @font-face {
+    font-family:'american' ;
+    src: url(../fontes/American\ Captain.ttf) format('truetype');
+    font-weight:bolder;
+  }
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+:root{
+    --cor1: #FF5F5D;
+    --cor2: #3F7C85;
+    --cor3: #00CCBF;
+    --cor4: #72F2EB;
+    --cor5: #747E7E;
+
+    --fontebasica: Arial, Verdana, Helvetica, sans-serif;
+    --google: 'Anton', sans-serif;
+    --baixada: 'american', arial;
+}
+
+body{
+    background-color: #adf0ec;
+}
+header{
+    background-color: var(--cor1);
+}
+
+header img{
+    display: block;
+    margin: auto;
+}
+header > h1{
+    font-family: var(--baixada);
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(156, 127, 194, 0.781);
+}
+
+nav > a{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: underline;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+  
+    font-family: var(--google);
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    min-width: 300px;
+    max-width: 800px;
+}
+    
+
+
+main h1{
+    background-color: #f3423f;
+    width: auto;
+    margin: auto;
+
+}
+
+
+article{
+    background-color: var(--cor3);
+    margin: auto;
+    width: auto;
+   
+    
+}
+
+article > p{
+    background-color: #abece9;
+}
+
+article img{
+    display: block;
+    margin: auto;
+}
+
+h2 > a{
+    text-decoration: none;
+}
+
+h2 > a:hover{
+    text-decoration: underline;
+}
+
+
+p{
+    font-family: var(--google);
+}
+aside{
+    background-color: var(--cor3);
+    border: 1px solid black;
+}
+
+ h3{
+    background-color: var(--cor1);
+}
+
+footer{
+    text-align: center;
+    font-family: var(--fontebasica);
+    background-color: var(--cor5);
+}
+
+footer > p{
+    font-family: var(--baixada);
+}
+
