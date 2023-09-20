@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+html, body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: right;
+    margin-right: 70px;
+    
+}
+
+a{
+    display: block;
+    background-color: gray;
+    padding: 10px;
+    border: 2px solid black;
+   
+    
+}
+
+img{
+   display: flex;
+   float: right;
+   
+}

@@ -154,20 +154,12 @@ article > a:hover{
 
 .aboutus {
     background-color: var(--cor1);
-    padding: 20px 20px 20px 20px;
-    margin: 30px 200px 50px 200px;
-    border: 1px solid black;
-    border-radius: 15px;
-    min-width: 300px;
-    max-height: 500px;
-
-    
+     
 }
 
-.aboutus > img{
-    display: inline-block;
+.aboutus > image{
     
-    margin: auto;
+   
 
 }
 
@@ -184,6 +176,7 @@ article > a:hover{
     font-weight: 500;
     padding: 10px 10px 0px 10px;
     color: white;
+    height: auto;
 
 
     
